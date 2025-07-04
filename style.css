@@ -477,7 +477,44 @@ nav{
     display: none;
 }
 }
+@media(max-width:600px){
+    .sec2 img{
+   height: 220px;
+   width: 100%;
+}
+    .spon01 {
+  display: flex;
+  flex-wrap: nowrap;     
+  overflow: hidden;       
+  gap: 10px;
+}
 
+.spon1-1 {
+  flex: 0 0 calc(100% / 2 - 10px);  
+  background-color: rgb(29, 27, 27);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+}
+@media(min-width:601px)and (max-width:991px){
+.sec2 img{
+   height: 220px;
+   width: 100%;
+}
+.spon01 {
+  display: flex;
+  flex-wrap: nowrap;    
+  overflow: hidden;      
+  gap: 10px;
+}
+
+.spon1-1 {
+  flex: 0 0 calc(100% / 3 - 10px); 
+  background-color: rgb(29, 27, 27);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+}
 @media (max-width:991px){ 
 section{
      margin: 1% 1%;
@@ -511,9 +548,6 @@ section{
        display: flex;
        margin: 2%;
 }
-.sec2 img{
-   height: 220px;
-}
 .plus{
     position: relative;
 }
@@ -521,13 +555,6 @@ section{
     position: absolute;
     top: 4%;
     right: 5%;
-}
-.spon01 .spon1-1{
-       display: flex;
-       flex-direction: column;
-       background-color: rgb(29, 27, 27);
-       margin: 0px 5px;
-       border-radius: 5px;
 }
 .spon01 .spon1-1 h3{
     margin: 1px 5px;
@@ -637,6 +664,7 @@ section{
 }
 .sec2 img{
   height: 210px;
+  width: 100%;
 }
 .plus{
     position: relative;
@@ -646,18 +674,20 @@ section{
     top: 4%;
     right: 5%;
 }
-.spon01{
-       display: flex;
-       margin: 1%;
+.spon01 {
+  display: flex;
+  flex-wrap: nowrap;      
+  overflow: hidden;       
+  gap: 10px;
 }
-.spon01 .spon1-1{
-       display: flex;
-       flex-direction: column;
-       background-color: rgb(29, 27, 27);
-       margin: 0px 5px;
-       border-radius: 5px;
 
+.spon1-1 {
+  flex: 0 0 calc(100% / 4 - 10px);  
+  background-color: rgb(29, 27, 27);
+  border-radius: 5px;
+  box-sizing: border-box;
 }
+
 .spon01 .spon1-1 h3{
     margin: 1px 5px;
 }
@@ -779,7 +809,8 @@ section{
   display: none;
 }
 .sec2 img{
-  height: 210px;
+  height: 218px;
+  width: 100%;
 }
 .plus{
     position: relative;
@@ -789,18 +820,20 @@ section{
     top: 4%;
     right: 5%;
 }
-.spon01{
-       display: flex;
-       margin: 1%;
+.spon01 {
+  display: flex;
+  flex-wrap: nowrap;      
+  overflow: hidden;     
+  gap: 10px;
 }
-.spon01 .spon1-1{
-       display: flex;
-       flex-direction: column;
-       background-color: rgb(29, 27, 27);
-       margin: 0px 5px;
-       border-radius: 5px;
 
+.spon1-1 {
+  flex: 0 0 calc(100% / 5 - 10px); 
+  background-color: rgb(29, 27, 27);
+  border-radius: 5px;
+  box-sizing: border-box;
 }
+
 .spon01 .spon1-1 h3{
     margin: 1px 5px;
 }
